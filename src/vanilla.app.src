@@ -1,0 +1,15 @@
+{application, vanilla,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+				  compiler,
+				  syntax_tools,
+				  ranch
+                 ]},
+  {mod, { vanilla_app, []}},
+  {env, []}
+ ]}.
